@@ -22,7 +22,7 @@ import java.util.Locale
 import kotlin.math.min
 
 
-//Testing for push on github
+
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
