@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".SignInFragment">
+
+    <EditText
+        android:id="@+id/signInUserEmail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="20dp"
+        android:hint="Email"
+        android:background="@drawable/edit_text_background"
+        />
+
+    <EditText
+        android:id="@+id/signInUserPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="20dp"
+        android:paddingHorizontal="20dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:background="@drawable/edit_text_background"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/signInButton"
+        android:backgroundTint="@color/orange"
+        android:text="Sign In"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Continue With Google"
+        android:textSize="17sp"
+        android:id="@+id/googleLogin"
+        android:background="@drawable/edit_text_background"
+        android:layout_marginTop="20dp"
+        android:drawablePadding="15dp"
+        android:gravity="center_vertical"
+        android:paddingStart="15dp"
+        android:drawableLeft="@drawable/google_logo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Continue With Facebook"
+        android:textSize="17sp"
+        android:id="@+id/facebookLogin"
+        android:background="@drawable/edit_text_background"
+        android:layout_marginTop="20dp"
+        android:paddingStart="15dp"
+        android:drawablePadding="15dp"
+        android:gravity="center_vertical"
+        android:drawableLeft="@drawable/facebook_logo"/>
+
+
+</LinearLayout>

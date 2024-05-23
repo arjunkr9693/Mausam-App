@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".SignUpFragment">
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="20dp"
+        android:hint="Name"
+        android:background="@drawable/edit_text_background"
+        />
+
+    <EditText
+        android:id="@+id/userEmail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="20dp"
+        android:paddingHorizontal="20dp"
+        android:hint="Email"
+        android:background="@drawable/edit_text_background"
+        />
+
+    <EditText
+        android:id="@+id/userPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="20dp"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:background="@drawable/edit_text_background"
+        />
+    <EditText
+        android:id="@+id/userRePassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="20dp"
+        android:inputType="textPassword"
+        android:hint="Re-Password"
+        android:background="@drawable/edit_text_background"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/signUpButton"
+        android:backgroundTint="@color/orange"
+        android:text="Sign Up"
+        android:layout_marginTop="20dp"
+        />
+</LinearLayout>
